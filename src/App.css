@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #151A33;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 25vmin;
+  pointer-events: none;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+  top: 5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #151A33;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-BoasVindas {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  padding: 1.5rem 1.5rem;
+}
+
+.App-BoasVindas code {
+  font-weight: bold;
+  color: #f3aa4a;
+}
+
+.App-link {
+  color: #f3aa4a;
+  margin-top: 5rem;
+  background-color: #FFE6C1;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem 1rem; */
+  background-color: #151A33;
+  color: #f3aa4a;
+  font-size: 1.5rem;
+  position: relative;
+  width: 100%;
+  width: auto;
+  z-index: 100;
+  overflow: auto;
+}
+
+.Menu .Menu-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10vh;
+  /* background-color: #f3aa4a; */
+  font-size: medium;
+  
+}
+
+.Menu .Menu-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh; /* Alterado de 100% para auto */
+  /* margin-top: 10vh; */
+  overflow: auto;
+  margin-top: 7vh;
+  grid-gap: 5px;
+  padding: 1rem 1rem;
+
+}
+
+.Menu .Menu-body .App-MenuButton {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #151A33;
+  cursor: pointer;
+  /* background-color: #FFE6C1; */
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 200px;
+  padding: 1rem 1rem; 
+  border: 1px solid #f3aa4a;
+  filter: grayscale(100%);
+}
+
+.Menu .Menu-body .App-MenuButton img {
+  height: 5rem;
+  width: auto;
+  
+}
+
+.Menu .Menu-body .App-MenuButton:hover {
+  filter: grayscale(0%);
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  transition: all 0.5s ease-in-out;
+  /* filter: blur(0.8px); */
+}
+
+.Menu-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #151A33;
+  /* background-color: #f3aa4a; */
+
+  color: #f3aa4a;
+  font-size: 1.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  height: 5vh;
+  bottom: 0;
+}
+
+.Menu-footer p {
+  text-decoration: none;
+  color: #FFE6C1;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.Menu-footer p code {
+  color: #f3aa4a;
+}
+
+.App-MenuButton-moon{
+  background-image: url('./assets/img/backgrounds/moon.png');
+  background-size: cover;
+}
+
+.App-MenuButton-sun{
+  background-image: url('./assets/img/backgrounds/sun.png');
+  background-size: cover;
+}
+
+.App-MenuButton-earth{
+  background-image: url('./assets/img/backgrounds/earth.png');
+  background-size: cover;
+}
+
+.App-MenuButton-wind{
+  background-image: url('./assets/img/backgrounds/wind.png');
+  background-size: cover;
+}
+
+.App-MenuButton-fire{
+  background-image: url('./assets/img/backgrounds/fire.png');
+  background-size: cover;
+}
+
+.App-MenuButton-light{
+  background-image: url('./assets/img/backgrounds/light.png');
+  background-size: cover;
+}
+
+.App-MenuButton-aurora{
+  background-image: url('./assets/img/backgrounds/aurora.png');
+  background-size: cover;
+}
+
+.App-MenuButton-snow{
+  background-image: url('./assets/img/backgrounds/snow.png');
+  background-size: cover;
+}
