@@ -4,7 +4,7 @@ function Footer() {
     return (
 
         <div className="Page-footer">
-            <p>Da Lua, ao <code>Vento</code>!</p>
+            <p>Da Lua, ao <code>Fogo</code>!</p>
         </div>
     );
 }

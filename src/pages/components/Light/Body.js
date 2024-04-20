@@ -27,7 +27,7 @@ function Body() {
                         Seu calor nos envolve como um abraço afetuoso,<br />
                         Trazendo paz e conforto, de um dia glorioso.<br />
                         <br />
-                        A Luz dos rpimordios sempre há de brilhar,<br />
+                        A Luz dos primordios sempre há de brilhar,<br />
                         Iluminando nossas vidas, nos fazendo sonhar.<br />
                         Que sua luz brilhe nos momentos sombrios,<br />
                         E sua energia flua como as correntes dos rios.<br />

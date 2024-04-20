@@ -1,7 +1,7 @@
 // import logo from '../assets/img/logo.png';
 import '../App.css';
-import AuroraButton from './components/Menu/Button/AuroraButton';
-import SnowButton from './components/Menu/Button/SnowButton';
+// import AuroraButton from './components/Menu/Button/AuroraButton';
+// import SnowButton from './components/Menu/Button/SnowButton';
 import EarthButton from './components/Menu/Button/EarthButton';
 import FireButton from './components/Menu/Button/FireButton';
 import LightButton from './components/Menu/Button/LightButton';
@@ -22,8 +22,8 @@ function Menu() {
         <WindButton />
         <FireButton />
         <LightButton />
-        <AuroraButton />  
-        <SnowButton /> 
+        {/* <AuroraButton />  
+        <SnowButton />  */}
       </div>
       <div className="Menu-footer">
         <Footer />
